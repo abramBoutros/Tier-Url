@@ -1,0 +1,8 @@
+# to use this, add REST client to your vscode
+
+POST http://localhost:3000/api/v1/url
+Content-Type: application/json
+
+{
+  "longUrl": "https://github.com/abramBoutros"
+}
