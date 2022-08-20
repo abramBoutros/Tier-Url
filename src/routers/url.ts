@@ -9,7 +9,7 @@ urlRouter.post("/api/v1/url", addUrl);
 
 // test the server running
 urlRouter.get("/", async (req: Request, res: Response) => {
-	res.send("hello");
+	res.send("Working");
 });
 
 // get the long url by code
